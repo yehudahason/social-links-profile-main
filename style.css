@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  font-size: 16px;
+  --dark-gray: hsl(0, 0%, 8%);
+  --gray: hsl(0, 0%, 12%);
+  --light-gray: hsl(0, 0%, 20%);
+  --green: hsl(75, 94%, 57%);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter";
+  margin: 0;
+  background-color: var(--dark-gray);
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+small {
+  margin-top: 6px;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+main {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+main .container {
+  width: 21rem;
+  height: 36rem;
+  background-color: var(--gray);
+  padding: 5px;
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+  gap: 16px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img img {
+  width: 4.5rem;
+  border-radius: 50%;
+}
+.container .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text p {
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-size: 1rem;
+  color: var(--green);
+  font-weight: 600;
+}
+
+.container .social-links {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(14px);
+}
+
+.social-links button {
+  margin-bottom: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+  padding: 14px 86px;
+  border: none;
+  margin: 8px 0px;
+  background-color: var(--light-gray);
+  border-radius: 8px;
+}
+.social-links button:hover {
+  background-color: var(--green);
+  color: black;
+}
