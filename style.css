@@ -27,6 +27,7 @@ small {
   margin-top: 6px;
   font-size: 0.8rem;
   font-weight: 400;
+  transform: translateY(12px);
 }
 
 main {
@@ -61,7 +62,7 @@ main .container {
 .container .text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
