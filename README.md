@@ -6,7 +6,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Github Pages](https://yehudahason.github.io/social-links-profile-main/)
+- Live Site URL: [Github Pages](https://yehudahason.github.io/social-links-profile-main/)
 
 ### Built with
 
